@@ -21,4 +21,10 @@ free -g
 
 nproc
 
+ps -ef 
+
+ps -ef | grep python
+
+ps -ef | grep python | awk '{print $2}'
+
 
